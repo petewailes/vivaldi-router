@@ -6,6 +6,8 @@ Vivaldi is a router designed for React projects (although it can be used with an
 
 Pull this repo and install. Set up mappings for routes in the Mappings file.
 
+### Mappings
+
 Mappings take the form of:
 
 sysRouter.map(route, components, metaData)
@@ -22,12 +24,27 @@ Thus two examples would be
 
 Any :userString parts in the route will be mapped and set as parameters in the GET request, with the key being the string provided, and the value as the actual URL value.
 
-### Prerequisites
+### Links
+
+The Link component is a React component which takes in a browser history object (passed in as a prop), and then acts to manipulate it based on what else is provided.
+
+An example would be something like the following:
+
+`<Link push={{ pathname: '/client/' + client.key }} history={this.props.history}>{client.name}</Link>`
+
+...or a slightly more complex example...
+
+`<Link replace={{ pathname: '/client/' + client.key }} history={this.props.history} title='Link to client area'>{client.name}</Link>`
+
+Any props passed in will get passed to the link created.
+
+## Prerequisites
 
 What things you need to install the software and how to install them
 
 ```
 Node v7 onwards
+createHistory from history/createBrowserHistory for the Link component
 ```
 
 ## Authors
