@@ -1,6 +1,6 @@
 # Vivaldi Router
 
-Vivaldi is a router designed for React projects (although it can be used with any technology), which gives more flexibility than existing solutions.
+Vivaldi is a router designed for React projects (although it can be used with any technology), which gives more flexibility than existing solutions, by allowing for *composing* output based on information provided by the router.
 
 ## Getting Started
 
