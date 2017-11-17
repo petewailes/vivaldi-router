@@ -49,7 +49,7 @@ createHistory from history/createBrowserHistory for the Link component
 
 ## Authors
 
-* **Pete Wailes** - [petewailes](https://github.com/petewailes)
+* **Pete Watson-Wailes** - [pwatsonwailes](https://github.com/pwatsonwailes)
 
 If anyone else contributes, I'll add a list of them at that time.
 
